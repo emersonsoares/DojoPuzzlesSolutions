@@ -26,5 +26,16 @@ namespace CashMachine.Tests
 
             Assert.AreEqual(expectedWithdraw, withdraw);
         }
+
+        [TestMethod]
+        public void WithdrawOfOneHundredEightyShouldBeReturnOneTenNoteAndOneTwentyNotesAndOneFiftyNoteAndOneHundredNote()
+        {
+            var cashMachine = CashMachine.New();
+            var withdraw = cashMachine.Get(180);
+
+            var expectedWithdraw = new Withdraw(1, 1, 1, 1);
+
+            Assert.AreEqual(expectedWithdraw, withdraw);
+        }
     }
 }

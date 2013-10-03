@@ -11,8 +11,9 @@ Os requisitos básicos são os seguintes:
 
 ### Test Cases
 
-Saque $ 30,00
-: Resultado Esperado - 1 nota de $ 20,00; 1 nota de $ 10,00;
-
-Saque $ 80,00
-: Resultado Esperado - 1 nota de $ 50,00; 1 nota de $ 20,00; 1 nota de $ 10,00;
+* **Saque $ 30,00**
+	+ Resultado Esperado - 1 nota de $ 20,00; 1 nota de $ 10,00;
+* **Saque $ 80,00**
+	* Resultado Esperado - 1 nota de $ 50,00; 1 nota de $ 20,00; 1 nota de $ 10,00;
+* **Saque $ 180,00**
+	* Resultado Esperado - 1 nota de $ 100,00; 1 nota de $ 50,00; 1 nota de $ 20,00; 1 nota de $ 10,00;
