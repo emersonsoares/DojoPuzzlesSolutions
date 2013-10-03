@@ -6,7 +6,7 @@ Os requisitos básicos são os seguintes:
 * Entregar o menor número de notas;
 * É possível sacar o valor solicitado com as notas disponíveis;
 * Saldo do cliente infinito;
-* Quantidade de notas infinito (pode-se colocar um valor finito de cédulas para aumentar a dificuldade do problema);
+* Quantidade de notas infinito;
 * Notas disponíveis de $ 100,00; $ 50,00; $ 20,00 e $ 10,00
 
 ### Test Cases
